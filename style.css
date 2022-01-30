@@ -55,8 +55,9 @@ a {
   }
 }
 .profile .name-wrapper {
+  position: fixed;
   float: left;
-  width: 60%;
+  width: 25%;
 }
 .profile h1 {
   font-size: 2.5em;
