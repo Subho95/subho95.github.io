@@ -45,7 +45,8 @@ a {
  
 .profile {
   background: #fff;
-  width: 40%;
+  position: relative;
+  width: 30%;
   float: left;
   color: #9099a0;
 }
@@ -56,7 +57,8 @@ a {
 }
 .profile .name-wrapper {
   float: left;
-  width: 60%;
+  width: 40%;
+  position: relative;
 }
 .profile h1 {
   font-size: 2.5em;
@@ -82,13 +84,14 @@ a {
   margin-bottom: 10px;
 }
 .profile .picture-resume-wrapper {
-  width: 40%;
+  width: 70%;
   display: block;
-  float: left;
+  float: center;
 }
 @media (max-width: 1200px) {
   .profile .picture-resume-wrapper {
     width: 100%;
+    vertical-align: middle;
   }
 }
 .profile .picture-resume {
@@ -111,7 +114,7 @@ a {
 }
 .profile .picture-resume img {
   border-radius: 50%;
-  width: 130px;
+  width: 250px;
 }
 @media (max-width: 1500px) {
   .profile .picture-resume img {
@@ -159,15 +162,16 @@ a {
 .profile .list-titles {
   float: left;
   text-align: left;
-  font-weight: 600;
-  width: 40%;
+  font-weight: 450;
+  width: 30%;
   color: #4a4e51;
 }
 .profile .list-content {
   float: left;
-  width: 60%;
+  width: 70%;
   text-align: left;
   font-weight: 300;
+  font-size:small;
 }
 .profile .contact-presentation {
   text-align: left;
@@ -199,7 +203,7 @@ a {
  
 .experience {
   background: #3d3e42;
-  width: 60%;
+  width: 70%;
   float: left;
   position: relative;
   color: #9099a0;
@@ -212,6 +216,23 @@ a {
     width: 100%;
   }
 }
+
+.experience .list-titles {
+  float: left;
+  text-align: left;
+  font-weight: 450;
+  width: 30%;
+  color: #b2b5b8;
+}
+.experience .list-content {
+  float: left;
+  width: 70%;
+  text-align: left;
+  font-weight: 300;
+  font-size:small;
+}
+
+
 .experience h3.experience-title {
   color: #66cc99;
   text-align: left;
@@ -286,6 +307,7 @@ a {
   text-align: left;
   text-transform: uppercase;
   font-size: 1.2em;
+  margin-top: 70px;
   margin-bottom: 20px;
   font-weight: 400;
 }
