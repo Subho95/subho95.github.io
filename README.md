@@ -1,2 +1,2 @@
 # subho95.io
-personal domain
+Personal domain for portfolio and online resume.
