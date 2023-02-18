@@ -29,7 +29,7 @@ a {
 }
  
 .bold {
-  color: #4a4e51;
+  color: #4a514c;
   font-weight: 400;
 }
  
@@ -40,7 +40,7 @@ a {
 }
  
 .container {
-  min-height: 600px;
+  min-height: 400px;
 }
  
 .profile {
@@ -48,7 +48,7 @@ a {
   position: relative;
   width: 30%;
   float: left;
-  color: #9099a0;
+  color: #000000;
 }
 @media (max-width: 850px) {
   .profile {
@@ -163,12 +163,12 @@ a {
   float: left;
   text-align: left;
   font-weight: 450;
-  width: 30%;
+  width: 40%;
   color: #4a4e51;
 }
 .profile .list-content {
   float: left;
-  width: 70%;
+  width: 60%;
   text-align: left;
   font-weight: 300;
   font-size:small;
@@ -206,7 +206,7 @@ a {
   width: 70%;
   float: left;
   position: relative;
-  color: #9099a0;
+  color: #77bef5;
   font-weight: 300;
   min-height: 100%;
   min-height: 100vh;
@@ -287,7 +287,7 @@ a {
 }
  
 .section-wrapper {
-  width: 50%;
+  width: 70%;
   float: left;
   text-align: left;
   color: #9099a0;
